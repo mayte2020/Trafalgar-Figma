@@ -1,0 +1,456 @@
+/* top nav */
+
+header {
+    padding: 60px;
+    text-align: center;
+    border-radius: 0px;
+    color: floralwhite;
+    font-family: 'Mulish', sans-serif;
+    background-repeat:no-repeat;
+    margin-bottom: 10px;
+    border-radius: 15px;
+  }
+
+  ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:transparent;
+    font-size:large;
+    -ms-flex-align: start;
+    text-align: center;
+    font-family:'Mulish', sans-serif;
+    flex-direction: column-reverse;
+  }
+  /*positioning the menu*/
+  li {
+    float:right;
+  }
+
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration:whitesmoke;
+    font-weight:normal;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:transparent;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+  
+.logo {
+float: left;
+width: 159.35px;
+height: 41px;
+left: 196.03px;
+top: 56px;
+margin-top: 20px;
+}
+/* illustration */
+
+.ilustration {
+width: 690.2px;
+height: 598px;
+left: 746.8px;
+top: 167px;
+float: right;
+margin-top: 100px;
+padding-left:60px;
+
+}
+
+/* header text */
+
+.headertext {
+margin-top: 60px;
+left: 200px;
+top: 283px;    
+color: black;
+font-family:'Mulish', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 32px;
+
+}
+
+/* consult btn */
+
+.consultbtn {
+
+position: absolute;
+width: 199.19px;
+height: 60px;
+left: 235.03px;
+top: 361px;
+border-radius: 40px;
+background-color:#458FF6;
+color: white;
+border-color:none;
+font-weight: bold;
+font-size:medium;
+cursor: pointer;
+padding:20px 20px;
+}
+
+
+.divservices{
+  width: 80%;
+  height: 177px;
+  left: 313.93px;
+  padding-top:400px;
+  font-family:'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 65px;
+  align-content: center;
+
+  /* or 167% */
+
+text-align: center;
+
+color: #7D7987;
+
+mix-blend-mode: normal;
+}
+  
+/* search doctor */
+.searchdoctor {
+position: relative;
+padding: 1rem;
+border: 1px solid #dee2e6!important;
+width: 280px;
+height: 280px;
+flex-direction: column;
+border-radius: .25rem;
+top: 200px;
+left: 160px;
+font-family:'Mulish', sans-serif;
+box-shadow: -1px 0px 8px -2px rgb(0 0 0 / 75%);
+}
+
+/* online pharmacy */
+
+.onlinepharmacy {
+padding: 1rem;
+position: relative;
+right: 10px;
+display: flex;
+justify-content: center;
+border: 1px solid #dee2e6!important;
+width: 280px;
+height: 280px;
+margin-left: 530px;
+margin-top: -80px;
+box-shadow: -1px 0px 8px -2px rgb(0 0 0 / 75%);
+}
+
+/* consultation */
+
+.consultation {
+   padding: 1rem;
+   position: absolute;
+    border: 1px solid #dee2e6!important;
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    margin-left: 890px;
+    margin-top: -278px;
+    box-shadow: -1px 0px 8px -2px rgb(0 0 0 / 75%);
+    
+}
+/* detail info */
+
+.detailinfo{
+    padding: 1rem;
+    margin-left: 160px;
+    margin-top: 60px;
+    border: 1px solid #dee2e6!important;
+    width: 280px;
+    height: 280px; 
+    box-shadow: -1px 0px 8px -2px rgb(0 0 0 / 75%); 
+}
+/* emergency care */
+
+.emergencycare{
+padding: 1rem;
+margin-left: 520px;
+margin-top:-280px;
+border: 1px solid #dee2e6!important;
+width: 280px;
+height: 280px;
+box-shadow: -1px 0px 8px -2px rgb(0 0 0 / 75%);
+}
+/* tracking */
+
+.tracking {
+padding: 1rem;
+margin-left: 890px;
+margin-top: -278px;
+border: 1px solid #dee2e6!important;
+width: 280px;
+height:280px;
+box-shadow: -1px 0px 8px -2px rgb(0 0 0 / 75%);
+}
+/* btn */
+
+
+/* trafalgar-illustration sec02 1 */
+
+.trafalgarilustration {
+
+float:left;
+left: 12.44%;
+right: 50.94%;
+bottom: 1.39%;
+font-family:'Mulish', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 32px;
+padding-left:140px;
+margin-top: 150px;
+padding-right: 210px;
+}
+/* text */
+
+.text{
+width: 586px;
+height: 288px;
+left: 1022px;
+top: 30.49%;
+font-weight: bold;
+color: black;
+font-family:'Mulish', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 32px;
+right:100px;
+float: right;
+
+
+}
+p.trafalgarilustration{
+  font-style: normal;
+  font-weight: 300;
+  padding-left: 80px;
+  color: #7D7987;
+  font-family:'Mulish', sans-serif;
+ font-style: normal;
+ font-weight: 300;
+ font-size: 18px;
+ line-height: 32px;
+}
+  
+/* btn */
+
+.btnt1{
+  cursor: pointer;
+  margin-left: 597.03px;
+  border-radius: 45px;
+  background-color:white;
+  color:blue;
+  border-color:blue;
+  font-weight: bold;
+  font-size:medium;
+  padding:8px 20px;
+  margin-top:900px ;
+  }
+
+  .btnt2{
+    cursor: pointer;
+    margin-left: 680.03px;
+    border-radius: 45px;
+    background-color:white;
+    color:blue;
+    border-color:blue;
+    font-weight: bold;
+    font-size:medium;
+    padding:8px 20px;
+    margin-top:-200px ;
+    }
+
+
+/* footer */
+
+footer{
+
+position: absolute;
+width: 1638px;
+height: 523px;
+left: -19px;
+top: 1795px;
+}
+
+
+  
+  
+ .hover-shadow {
+    transition: 0.10s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  
+.divservices{
+width: 80%;
+height: 177px;
+left: 313.93px;
+padding-top:400px;
+font-family:'Mulish', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+margin-left: 65px;
+align-content: center;
+
+/* or 167% */
+
+text-align: center;
+
+color: #7D7987;
+
+mix-blend-mode: normal;
+  }
+
+  hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left:45%;
+    margin-right: 50%;
+    border-style: solid;
+    border-width: 0.8px;
+    width: 8%;
+    align-content: center;
+  }
+
+  .hr1 {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left:15%;
+    margin-right: 50%;
+    border-style: solid;
+    border-width: 0.8px;
+    width: 15%;
+  }
+.trafalgarprovider{
+left: 57.94%;
+right: 13.94%;
+top: 43.49%;
+bottom: 54.39%;
+font-family:'Mulish', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+color: #7D7987;
+mix-blend-mode: normal;
+float: right;
+}
+p.trafalgarilustration{
+font-style: normal;
+font-size: 1.25rem;
+font-weight: 300;
+padding-left: 80px;
+color: #7D7987;
+font-family:'Mulish', sans-serif;
+
+
+}
+footer{
+width: 100%;
+height: 400px;
+left: 0px;
+top: 2500px;
+
+background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+    .pfooter{
+      color: white;
+      font-style: normal;
+      font-size: 14px;
+      width: 391px;
+      margin-left: 150px;
+      margin-top: 26px;
+      font-family:'Mulish', sans-serif;
+      font-style:normal;
+      font-weight: lighter;
+    }
+    .textdark{
+    color: #343a40!important;
+    font-weight: 700;
+    }
+    .container {
+      width:400px;
+      font-family:'Mulish', sans-serif; 
+      font-size: 14px;
+      line-height: 38px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      margin-top: -100px;
+      float: right;
+      margin-right: 200px
+      
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .servicescontainer{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position:absolute;
+    font-family:'Mulish', sans-serif;
+    color: #6c757d!important;
+    font-size: 16px;
+  
+    }
+    .pfooter1{
+      color: white;
+      font-family:'Mulish', sans-serif; 
+      margin-left:150px;
+      width: 391px;
+      margin-top: 76px;
+      font-size: 14px;
+    }
+    h3,h4,h5,h6{
+      font-size: 1rem;
+    }
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+div{
+  display: block;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+.imgfooter{
+margin-left: 150px;
+margin-top: 60px;
+}
